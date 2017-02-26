@@ -1,0 +1,313 @@
+/*  Jason Merrill
+	Frank Serrano
+	Amber Mosier
+	CS 300-2*/
+* {font-family: Tahoma, Geneva, sans-serif;
+}
+
+body{
+	margin: 0 auto;
+	width: 100%;
+
+}
+#sun{
+	
+    position: absolute;
+    margin-left: 15%;
+    top: 0;
+    width: 80%;
+    height: auto;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+header{
+	width: 100%;
+	height: 85px;
+	margin: 0 auto;
+	background: #408000;
+	position: fixed;
+	top: 0;
+	border-bottom: 5px solid #b7c996;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	z-index: 1;
+	padding-top: 15px;
+	padding-bottom: 25px;
+
+}
+
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding-top: 0;
+  font-style: narrow;
+  font-size: 70px;
+  color: #ffffcc;
+  Margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  text-align: center;
+  
+
+}
+
+
+#nav_bar ul{
+	list-style-type: none;
+	height: 100%;
+	overflow: auto;
+	position: fixed;
+	margin: 108px 0 0 0;
+	padding: 0;
+
+}
+
+#nav_bar a {
+	display: block;
+    color: #ffffcc;
+    background-color: #cc7a00;
+    height: auto;
+    width: 45%;
+    padding: 13% 2.5em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+}
+#nav_bar li a:hover {
+    background-color: #e68a00;
+    color: #f0dcdf;
+}
+
+.First
+	{ position: relative;
+	  left: 20em;
+	  top: 8em;
+	  width:60%;
+	  border-style: ridge;
+	  border-color: green;
+	  border-width: medium;
+	  padding-bottom: 20px;
+	  border-radius: 25px;
+	}
+
+	.First p{
+ 		 font-size:300%;
+ 		 color: Green;
+		 top: 10em;	
+		 left: 400px;
+		 text-align: center;
+	}
+	#deal {
+		float: left;
+		width: 200px;
+			}
+
+		
+	#boyhat {
+		float: left;
+		width: 25%;
+		margin-left: 50px;}
+		
+	 
+	#girlhat {
+			width: 21%;
+			margin-left: 50px;
+			}
+
+.second
+	{ position: relative;
+	  left: 20em;
+	  top: 12em;
+	  width:60%;
+	  float: left;
+	  padding-bottom: 70px;
+	  
+	}
+
+	#event{
+		margin-left: 20%;
+		border-style: solid;
+		border-color: green;
+		border-width: medium;
+		margin-bottom: 20px;
+		border-radius: 25px;
+		
+	}
+ #recipesection{
+		border-style: solid;
+		border-color: green;
+		border-width: medium;
+		border-radius: 25px;
+	}
+
+	#recipe{
+			
+		width: 90%;
+		margin-left:35px;
+		margin-top: 15px;
+			}
+	#foodpic{
+			width: 250px;
+			margin-top: 35px;
+			margin-left: 250px;
+			padding-bottom: 50px;
+				}
+	
+
+footer{
+	background-color: #ffff99;
+	padding-top: 40px;	
+	color:#408000;
+	clear: left;
+	margin-top: 95%;
+}
+
+footer table{
+	width: 100%;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	padding-left: 17%;
+}
+footer th{
+	color: #408000;
+	font-size: 80%;
+	text-align: left;
+	
+}
+footer td{
+	color: #408000;
+	font-size: 60%;
+}
+footer a:link{
+	color: #408000;
+	text-decoration: none;
+}
+footer p{
+	border-top: thin solid #006400;
+	font-size: 55%;
+	padding-top: 10px;
+	padding-left: 17%;
+	padding-bottom: 10px;
+}
+#m1{
+	float: left;
+	vertical-align: middle;
+	padding-left: 2%;
+	width: 200px;
+}
+
+.clthPrd{
+	
+	padding-left: 190px;
+	padding-top: 85px;
+
+}
+
+.clthPrd img{
+	float: left;
+	margin: .5%;
+	height: 10%;
+	width: 10%;
+}
+
+.clthPrd p{
+	float: left;
+	margin: .5%;
+	height: 10%;
+	width: 65%;
+
+}
+
+.clthPrd input{
+	float: left;
+	margin: .5%;
+	height: 10%;
+	width: 20%;
+
+}
+
+#cart {
+	float: left;
+	border: 5px solid;
+	position: relative;
+	margin-left: 12.42em;
+	margin-top: 6em;
+	padding-left: 1%;
+	height: 50%;
+	width: 88%;
+}
+
+#payment {
+	float:left;
+	border: 5px solid;
+	position: relative;
+	left: 190px;
+	margin: .5em;
+	padding-left: 1%;
+	height: 25%;
+	width: 42.8%;
+}
+
+#shipping {
+	float: left;
+	border: 5px solid;
+	position: relative;
+	left: 190px;
+	margin: .5em;
+	padding-left: 1%;
+	height: 25%;
+	width: 42.8%;
+}
+
+#thx {
+	float: left;
+	border: 5px solid;
+	position: relative;
+	left: 190px;
+	margin: .5em;
+	padding-left: 1%;
+	height: 10%;
+	width: 88%;
+}
+
+#items img{
+	float: left;
+	margin: .5%;
+	height: 10%;
+	width: 10%;
+}
+
+#items p{
+	float: left;
+	margin: .5%;
+	height: 10%;
+	width: 65%;
+
+}
+
+#items input{
+	float: left;
+	margin: .5%;
+	height: 10%;
+	width: 20%;
+
+}
+
+form{
+	margin: 5px;
+	text-align: right;
+	float: left;
+}
+
+form label{
+
+}
+
+form input{
+	margin-bottom: 2%;
+}
+
+

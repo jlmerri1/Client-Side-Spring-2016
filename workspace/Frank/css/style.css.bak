@@ -1,0 +1,327 @@
+* {font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body{
+	margin: 0 auto;
+	width: 100%;
+}
+@font-face {
+ font-family: "AR HERMANN", sans-serif;
+  src: url(../Jason/js/ARHERMANN.ttf);
+}
+#sun{
+	
+    position: absolute;
+    margin-left: 15%;
+    top: 0;
+    width: 80%;
+    height: auto;
+    opacity: 0.15;
+    z-index: -1;
+}	
+	
+
+
+header{
+	width: 100%;
+	height: 85px;
+	margin: 0 auto;
+	background: #408000;
+	position: fixed;
+	top: 0;
+	border-bottom: 5px solid #b7c996;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	z-index: 1;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+h1 {
+  font-family:"AR HERMANN", sans-serif;
+  padding-top: 0;
+  font-style: narrow;
+  font-size: 80px;
+  color: #ffffcc;
+  Margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  text-align: center;
+  
+
+}	
+	
+
+#nav_bar ul{
+	list-style-type: none;
+	height: 100%;
+	overflow: auto;
+	position: fixed;
+	margin: 128px 0 0 0;
+	padding: 0;
+	
+}
+	
+
+#nav_bar a {
+	display: block;
+    color: #ffffcc;
+    background-color: #cc7a00;
+    height: auto;
+    width: 45%;
+    padding: 13% 2.5em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a:link {
+    text-decoration: none;
+}
+#nav_bar li a:hover {
+    background-color: #e68a00;
+    color: #f0dcdf;
+}
+	/*changed the position to relative*/
+#m1{
+	float: left;
+	vertical-align: middle;
+	padding-right: 5%;
+	margin-top:  1em;
+}
+
+.clthPrd{
+	
+	padding-left: 190px;
+	padding-top: 130px;
+
+}
+
+.itemBox{
+	border: 1px solid black;
+	width: 25%;
+	height: 30%;
+}
+
+.clthPrd img{
+	float: left;
+	margin: .5%;
+	height: 50%;
+	width: 50%;
+}
+/*
+.clthPrd p{
+	float: right;
+	margin: .5%;
+	height: 15%;
+	width: 54%;
+
+}
+
+.clthPrd input{
+	float: right;
+	margin: 2.5% .5%;
+	height: 10%;
+	width: 15%;
+
+}
+
+.clthPrd label{
+	text-align: right;
+	float: left;
+	padding-top: 4%;
+	width: 5%;
+
+}
+
+.clthPrd select{
+	float: left;
+	width: 6%;
+	margin-top: 4%; 
+}
+*/
+.accPrd{
+	
+	padding-left: 190px;
+	padding-top: 95px;
+
+}
+
+.accPrd img{
+	float: left;
+	margin: .5%;
+	height: 15%;
+	width: 10%;
+}
+
+.accPrd p{
+	float: left;
+	margin: .5%;
+	height: 15%;
+	width: 65%;
+
+}
+
+.accPrd input{
+	float: left;
+	margin: 2.5% .5%;
+	height: 10%;
+	width: 15%;
+
+}
+
+.accPrd label{
+	text-align: right;
+	float: left;
+	padding-top: 4%;
+	width: 5%;
+
+}
+
+
+
+#cart {
+	
+	padding-left: 190px;
+	padding-top: 8%;
+
+}
+
+#cart p{
+	width: 80%;	
+
+}
+
+#items p{
+	text-align: center;
+	font-size: 150%;
+	padding-top: 3%;
+}
+
+#userInfo{
+	display:inline-block;
+	width:80%;
+	margin-left: 15%;
+}
+
+
+#payment {
+	float:left;
+	display:block;
+	border: thin solid;
+	padding-left: 1%;
+	height: 60%;
+	width: 45%;
+}
+
+#shipping {
+	float:right;
+	display:block;
+	border: thin solid;
+	padding-left: 1%;
+	height: 60%;
+	width: 45%;
+}
+
+#thx {
+	float: left;
+	border: thin solid;
+	position: relative;
+	margin: 1% 15%;
+	margin-bottom:5%;
+	height: 30%;
+	width: 78.9%;
+	padding-left: 1%;
+	text-align:center;
+}
+
+
+#items{
+
+		width: 100%;
+}
+#items img{
+	float: left;
+	height: 20%;
+	width: 15%;
+}
+
+#items p{
+	float: left;
+	margin: .5%;
+	height: 20%;
+	width: 60%;
+
+}
+
+#items input{
+	float: left;
+	height: 10%;
+	width: 20%;
+	margin: 5% 0;
+
+}
+
+form{
+	
+	text-align: right;
+	
+}
+
+form label{
+
+}
+
+form input{
+	padding-right: 20%;
+	margin-right:10%;
+
+}
+
+input[type="button"] {
+	color: #ffffcc;
+	background-color: #cc7a00;
+	border-radius: 10px;
+	
+}
+
+input[type="button"]:hover {
+	background-color: #e68a00;
+    color: #f0dcdf;
+	
+}
+
+
+footer{
+	background-color: #ffff99;
+	padding-top: 40px;	
+	color:#408000;
+	clear: left;
+
+}
+
+footer table{
+	width: 100%;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	padding-left: 17%;
+}
+footer th{
+	color: #408000;
+	font-size: 80%;
+	text-align: left;
+	
+}
+footer td{
+	color: #408000;
+	font-size: 60%;
+}
+footer a:link{
+	color: #408000;
+	text-decoration: none;
+}
+footer p{
+	border-top: thin solid #006400;
+	font-size: 55%;
+	padding-top: 10px;
+	padding-left: 17%;
+	padding-bottom: 10px;
+}

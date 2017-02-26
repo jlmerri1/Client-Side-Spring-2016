@@ -1,0 +1,64 @@
+/*  Jason Merrill
+	Frank Serrano
+	Amber Mosier
+	CS 300-2*/
+	
+#f1{
+	padding-left: 200px;
+	padding-top: 2%;
+	float:left;
+}
+
+#sidecontent{
+	padding-top: 65px;
+	padding-left: 720px;
+	padding-right:50px;
+	
+}
+#sidecontent p::first-letter{
+	font-size: 150%;
+	color: Green;}
+#icons{
+	padding-top: 30px;
+
+}
+.AboutFood
+{
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	width:75%;
+	color: Green;
+}
+.foodleft{
+	clear:both;	
+	float: left;
+	padding-left: 300px;
+	padding-top: 20px;
+	width: 24%;
+	padding-bottom: 60px;
+}
+.foodright{
+	float: right;
+	padding-top: 20px;
+	width: 24%;
+	padding-right: 180px;
+	padding-bottom: 60px;
+}
+
+.food input{
+	margin: 30px;
+	height: 30px;
+	width: 100px;
+}
+
+input[type="button"] {
+	color: #ffffcc;
+	background-color: #cc7a00;
+	border-radius: 10px;
+}
+
+input[type="button"]:hover {
+	background-color: #e68a00;
+    color: #f0dcdf;
+}
